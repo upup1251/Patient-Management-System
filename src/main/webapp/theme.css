@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1 {
+    color: #07c160;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #07c160;
+}
+form {
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /*width: 100%;*/
+}
+
+table {
+    min-width: 300px;
+    border-spacing: 10px 15px; /* 行和列的间距 */
+}
+
+td {
+    /*min-width: 200px;*/
+    /*max-width: 70%;*/
+    width: 200px;
+    max-width: 100%;
+    vertical-align: middle; /* 垂直居中 */
+    text-align: left; /* 水平靠左 */
+    padding: 5px; /* 单元格内边距 */
+    white-space: normal;
+}
+td span{
+    word-break: keep-all;
+}
+label {
+    font-weight: bold;
+}
+input {
+    width: 89%;
+    /*max-width: 300px; !* 设置最大宽度 *!*/
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+input:focus {
+    border-color: #07c160;
+    outline: none;
+    box-shadow: 0 0 5px rgba(7, 193, 96, 0.5);
+}
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #07c160;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #05a94e;
+}
+
+
+select {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #07c160;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24'%3E%3Cpath fill='%2307c160' d='M7 10l5 5l5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px 12px;
+    cursor: pointer;
+
+    width: 70%; /* 保持单元格内部有间距 */
+    max-width: 200px; /* 设置最大宽度 */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+option {
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+}
+
+option:hover {
+    background-color: #07c160;
+    color: white;
+}
+
+option:checked {
+    background-color: #05a94e;
+    color: white;
+}
+
+input:focus, select:focus {
+    border-color: #07c160;
+    outline: none;
+    box-shadow: 0 0 5px rgba(7, 193, 96, 0.5);
+}
